@@ -1,7 +1,3 @@
-# Paper-Scanning-Application
-This is an application that scan image of paper
-Code
-
 import cv2
 import numpy as np
 from tkinter import Tk
@@ -92,6 +88,5 @@ options_map = {
     'D': (400, 150, 420, 170)
 }
 
-correct_answers = ['A', 'C', 'B', 'D', 'A']
+correct_answers = ['A', 'B', 'C', 'D']
 process_mcq_image(correct_answers, options_map)
-
